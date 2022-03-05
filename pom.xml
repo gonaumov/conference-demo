@@ -5,7 +5,15 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.3</version>
+        <!--
+          I needed to downgrade spring-boot-starter-parent
+          because I am following "Spring Framework: Creating Your First Spring Boot Application"
+          By Dan Bunker Pluralsight course which is is a little out of date now and the latest
+          version of spring boot doesn't appear to work with the project setup.
+          Credits to this person:
+          https://stackoverflow.com/a/64902935
+        -->
+        <version>2.1.9.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.pluralsght</groupId>
