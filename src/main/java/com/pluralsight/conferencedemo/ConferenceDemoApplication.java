@@ -1,4 +1,4 @@
-package com.pluralsght.conferencedemo;
+package com.pluralsight.conferencedemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
